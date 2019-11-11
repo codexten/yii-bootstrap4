@@ -1,0 +1,21 @@
+{
+  "name": "codexten/yii-bootstrap4",
+  "type": "yii2-extension",
+  "description": "codexten bootstrap3 wrapper for yii 2.0 or higher",
+  "require": {
+    "yiisoft/yii2-bootstrap4": "~2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "codexten\\yii\\bootstrap4\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "bootstrap3": "config/bootstrap3.php"
+    }
+  }
+}
